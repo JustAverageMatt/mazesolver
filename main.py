@@ -13,6 +13,8 @@ def main():
     cell_size_y = (screen_y - 2 * margin) / num_rows
     win = Window(screen_x, screen_y)
 
+    seed = None
+
     maze = Maze(margin, margin, num_rows, num_cols, cell_size_x, cell_size_y, win)
 
     # c1 = Cell(win)
